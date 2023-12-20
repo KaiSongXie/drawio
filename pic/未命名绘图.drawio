@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T12:53:01.982Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XH39v7WvdCk2p5LbHS_7" version="22.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T03:27:31.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QEFixBObIgsfwfP6s_RS" version="22.1.9" type="github">
   <diagram name="第 1 页" id="0k4TBifSkERZmbdtbySY">
     <mxGraphModel dx="1314" dy="805" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,11 +155,17 @@
         <mxCell id="LGNTD50chUgOsU70D988-38" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;SelectInto&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;HashTable&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="870" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LGNTD50chUgOsU70D988-95" value="HashJoin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="342" y="1193" width="100" height="50" as="geometry" />
+        <mxCell id="LGNTD50chUgOsU70D988-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LGNTD50chUgOsU70D988-95" target="LGNTD50chUgOsU70D988-96">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LGNTD50chUgOsU70D988-96" value="HashJoin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="344" y="1301" width="100" height="50" as="geometry" />
+        <mxCell id="LGNTD50chUgOsU70D988-95" value="HashJoin::GetNext" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1248" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LGNTD50chUgOsU70D988-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LGNTD50chUgOsU70D988-96" target="LGNTD50chUgOsU70D988-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGNTD50chUgOsU70D988-96" value="HashJoinImpl::GetNext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1373" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LGNTD50chUgOsU70D988-100" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -182,6 +188,15 @@
         </mxCell>
         <mxCell id="LGNTD50chUgOsU70D988-102" value="1.1.1 LoadBuildTableHashTables" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="62" y="766" width="193" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGNTD50chUgOsU70D988-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LGNTD50chUgOsU70D988-104" target="LGNTD50chUgOsU70D988-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGNTD50chUgOsU70D988-104" value="LoadPendingInput" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1475" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LGNTD50chUgOsU70D988-105" value="ProcessPendingInput" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1609" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
