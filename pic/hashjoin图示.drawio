@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T03:23:19.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gc21IUXvZDG2F78eyX_Q" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T06:04:56.503Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PCoDp2UBEDj9CA1T-on5" version="22.1.11" type="github">
   <diagram name="第 1 页" id="0k4TBifSkERZmbdtbySY">
-    <mxGraphModel dx="2074" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,6 +159,174 @@
         </mxCell>
         <mxCell id="CpbZUt9SCDzq-T55aCew-25" value="Gather" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="384" y="1515" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="104.5" y="2929" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;HashJoinNode&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2498" width="89" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;RuntimeFilter&lt;br&gt;Merger&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596" y="2494" width="89" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-29" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;RuntimeFilter&lt;br&gt;Mgr&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375.5" y="2500" width="89" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252.5" y="2929" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-30" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;RuntimeFilter&lt;br&gt;BuildHelper&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="208" y="2498" width="89" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-40" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-27" target="CpbZUt9SCDzq-T55aCew-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="2530" as="sourcePoint" />
+            <mxPoint x="104.5" y="2929" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.833;exitY=0.068;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;curved=1;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-39" target="CpbZUt9SCDzq-T55aCew-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="2576" />
+              <mxPoint x="140" y="2598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;endArrow=classicThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237.5" y="2655.5" as="targetPoint" />
+            <mxPoint x="110" y="2655" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101.5" y="2563" width="6" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-41" value="" style="endArrow=classicThin;html=1;rounded=0;dashed=1;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="2565" as="sourcePoint" />
+            <mxPoint x="93" y="2565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-42" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;StartQuery&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="2532" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="106" y="2582" width="9" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-46" value="LoadHashTable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="139.5" y="2575" width="101" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-30" target="CpbZUt9SCDzq-T55aCew-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253" y="2530" as="sourcePoint" />
+            <mxPoint x="252.5" y="2929" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.3;exitY=0.042;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitPerimeter=0;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-47" target="CpbZUt9SCDzq-T55aCew-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="2655" />
+              <mxPoint x="299" y="2681" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2647" width="5" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-50" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;发起创建rf请求&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2621" width="84" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-63" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="253" y="2665" width="7.5" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-65" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;根据filter type创建rf&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="291.5" y="2645" width="105" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-66" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="253" y="2720" width="7.5" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.3;exitY=0.042;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="2708" as="sourcePoint" />
+            <mxPoint x="259" y="2734" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="297" y="2708" />
+              <mxPoint x="297" y="2734" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-68" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;读HashTalbe&lt;br&gt;往 rf 中插入数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="304" y="2700" width="90" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.1;exitY=0.717;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;endArrow=classicThin;endFill=1;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411.25" y="2772.99" as="targetPoint" />
+            <mxPoint x="259" y="2772.0029999999997" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-70" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;发起Publish请求&lt;br&gt;发布所有构建好的rf&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2735" width="104" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421.5" y="2536" as="sourcePoint" />
+            <mxPoint x="421" y="2935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-75" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="418.5" y="2772" width="6" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431" y="2888" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423" y="2752" />
+              <mxPoint x="509" y="2752" />
+              <mxPoint x="509" y="2888" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-77" value="循环发布rf&lt;br&gt;直到所有的rf被接收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="499" y="2797" width="121" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-78" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="425" y="2825" width="7.5" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.833;exitY=0.074;exitDx=0;exitDy=0;curved=1;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.99800000000005" y="2792.546" as="sourcePoint" />
+            <mxPoint x="434" y="2838" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="426" y="2791" />
+              <mxPoint x="500" y="2791" />
+              <mxPoint x="500" y="2838" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-85" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;local情况下&lt;br&gt;直接读本地rf&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="2793" width="74" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;endArrow=classicThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.5" y="2709.5" as="targetPoint" />
+            <mxPoint x="106" y="2709" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-88" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;HashTable数据构建filter&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="104" y="2681" width="124" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-89" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;dashPattern=1 2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264" y="2901" as="sourcePoint" />
+            <mxPoint x="416" y="2901" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-90" value="rf构建完毕&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280.5" y="2872" width="77" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
