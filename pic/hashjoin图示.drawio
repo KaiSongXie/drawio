@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T07:09:17.967Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Y15UOEDIOSEZDE7x2-rF" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T07:53:50.964Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lC7SQQKVjIGhRWtfY9HI" version="22.1.11" type="github">
   <diagram name="第 1 页" id="0k4TBifSkERZmbdtbySY">
     <mxGraphModel dx="954" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -600,19 +600,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CpbZUt9SCDzq-T55aCew-163" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color); background-color: initial; text-align: left;&quot;&gt;RuntimeFilterBuildHelper&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+&amp;nbsp;BuildRuntimeFilter()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Init()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Insert()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="225" y="4735" width="216" height="86" as="geometry" />
+          <mxGeometry x="121" y="4848" width="216" height="86" as="geometry" />
         </mxCell>
         <mxCell id="CpbZUt9SCDzq-T55aCew-166" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RuntimeFilter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ min_max_filter : MinMaxFilter&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ in_filter : InFilter&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ bloom_filter : BloomFilter&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ hash_values :vector&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ need_merge :bool&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Insert(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;Finalise(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetInorBloomExpr() :Expr&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetMinMaxExpr() : Expr&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="507" y="4738" width="183" height="179" as="geometry" />
+          <mxGeometry x="291.5" y="5113" width="183" height="179" as="geometry" />
         </mxCell>
         <mxCell id="CpbZUt9SCDzq-T55aCew-167" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Scan&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ runtime_filter: RuntimeFilter&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;WaitForRuntimeFilter()&lt;span style=&quot;background-color: initial;&quot;&gt;: future&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;GetRuntimeFilter(): future&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ init() : future&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ doopen() : future&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="155.25" y="4941" width="237.5" height="122" as="geometry" />
+          <mxGeometry x="435.5" y="4846" width="237.5" height="122" as="geometry" />
         </mxCell>
         <mxCell id="CpbZUt9SCDzq-T55aCew-168" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RuntimeFilterMgr&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ runtimefilter_map : unorder_map&amp;lt;&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ReceiveRuntimeFilter()&lt;span style=&quot;background-color: initial;&quot;&gt;: void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ publish()&lt;/span&gt;: void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ publishRuntimeFilter() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ publishGlobalRuntimeFilter() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ MergeGlobalRuntimeFilter() : void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="460" y="4950" width="237.5" height="176" as="geometry" />
+          <mxGeometry x="495" y="5333" width="237.5" height="176" as="geometry" />
         </mxCell>
         <mxCell id="CpbZUt9SCDzq-T55aCew-169" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RuntimeFilterMerger&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ query_id : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ filter_id : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ runtimefilter_mgr : RuntimeFilterMgr *&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Merge()&lt;span style=&quot;background-color: initial;&quot;&gt;: future&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="151.5" y="5128" width="237.5" height="134" as="geometry" />
+          <mxGeometry x="115" y="5354" width="237.5" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-173" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;startArrow=classic;startFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-168" target="CpbZUt9SCDzq-T55aCew-166">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="581" y="5092" as="sourcePoint" />
+            <mxPoint x="774" y="5206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpbZUt9SCDzq-T55aCew-174" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CpbZUt9SCDzq-T55aCew-169" target="CpbZUt9SCDzq-T55aCew-168">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="351.5" y="5418" as="sourcePoint" />
+            <mxPoint x="480" y="5410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
